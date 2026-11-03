@@ -1,0 +1,7 @@
+* text=auto
+*.mjs text eol=lf
+skills/** -text
+upstream/** -text
+*.png binary
+*.jpg binary
+*.pdf binary

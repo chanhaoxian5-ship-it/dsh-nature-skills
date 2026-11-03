@@ -1,0 +1,218 @@
+[
+  {
+    "name": "nature-academic-search",
+    "directory": "nature-academic-search",
+    "description": "Search literature across sources, verify or manage citations, and build MeSH strategies or citation-impact audits. Use for 文献检索、引文核对、参考文献管理、严格他引 and evidence-backed citer profiles; not for translating a paper or drafting manuscript prose.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-citation",
+    "directory": "nature-citation",
+    "description": "Find and verify Nature/CNS-family literature supporting manuscript claims, with claim-to-source mapping and reference-manager export. Use for Nature系列引用、CNS支撑文献、分段补引用 when this journal scope is requested; use broader literature search for unrestricted sources.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-data",
+    "directory": "nature-data",
+    "description": "Draft or audit manuscript Data/Code Availability statements, dataset access routes, repository plans, and FAIR metadata. Use for 数据可用性声明、数据共享、数据仓库选择 and dataset citations; not general data cleaning or statistical analysis.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-downloader",
+    "directory": "nature-downloader",
+    "description": "Use when a user needs lawful academic full text, CNKI institutional access, English OA retrieval, publisher API access, institutional browser fallback, or supporting information downloads.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-experiment-log",
+    "directory": "nature-experiment-log",
+    "description": "标准化实验日志记录——直接上传或读取本地图片、语音和文字，产出带 YAML frontmatter 的 Markdown；可选集成飞书 CLI 与 Obsidian。",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-figure",
+    "directory": "nature-figure",
+    "description": "Create, revise, audit, and export manuscript scientific figures in Python or R. Use for 论文配图、科研绘图、多面板图 and submission-ready plots, or explicitly requested AI-generated graphical abstracts and mechanism schematics. Not for interactive dashboards, data cleaning, or statistics-only analysis.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-image2ppt",
+    "directory": "nature-image2ppt",
+    "description": "Reconstruct slide images, screenshots, scanned PDFs, or image-only PPTX files as object-level editable PowerPoint. Use for 图片转可编辑PPT、截图还原PPT and diagram reconstruction; not authoring a new deck from research notes.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-literature-pipeline",
+    "directory": "nature-literature-pipeline",
+    "description": "Complete automated literature discovery pipeline: multi-source search → six-dimension scoring → fine reading → formatted delivery → archival.\nCombines a configurable engine with daily cron-driven application layer. Works with Feishu, Telegram, or any messaging platform.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-paper-card",
+    "directory": "nature-paper-card",
+    "description": "Build a structured deep-reading Paper Card for one scientific paper, analysing methods, experiment-to-claim evidence, limitations, and research ideas. Use for 论文精读卡、方法拆解、证据链分析; not full-paper bilingual translation or formal peer review.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-paper-to-patent",
+    "directory": "nature-paper-to-patent",
+    "description": "Turn research papers or inventor materials into evidence-grounded Chinese invention patent drafts and technical disclosures. Use for 技术交底书、专利撰写、现有技术对比 and Chinese DOCX patent packages; not general manuscript writing.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-paper-trans",
+    "directory": "nature-paper-trans",
+    "description": "将英文论文 PDF 的指定页面或全文逐页翻译为简体中文图片型 PDF，尽量保留原文的版式、分栏、图表和公式；最终仅交付中文 PDF。用于论文阅读翻译，不用于可编辑 Word 重建或逐字审校。",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-paper-xray",
+    "directory": "nature-paper-xray",
+    "description": "Read one supplied paper closely enough to reconstruct how its authors actually got there, rather than restating what the abstract claims. Use for 精读论文, 讲透这篇论文, 把这篇读懂, 作者为什么这么设计, 这个公式怎么推出来的, paper x-ray, and deep single-paper comprehension before building on, reviewing, presenting, or citing that paper. Recovers the real starting point and the bet the authors placed, separates load-bearing design from decoration, grounds each key formula in a worked micro-example with concrete numbers, and checks how far the evidence actually reaches, including where the authors are confident and where the paper does not report something. Delivers a structured Markdown long-read by default. Not a summary, not a translation, not a peer review.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-paper2ppt",
+    "directory": "nature-paper2ppt",
+    "description": "Create or improve a Chinese academic PPTX from a scientific paper or research reading notes, with source figures and speaker notes. Use for 论文做PPT、文献汇报、组会PPT and paper-based conference or defense presentations.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-paper2word",
+    "directory": "nature-paper2word",
+    "description": "Compile an academic Markdown manuscript into a journal- or school-compliant Word (.docx): declared typography, native OMML equations, three-line tables, cross-references, per-section page numbers, CSL bibliographies (GB/T 7714, APA, Nature, IEEE), and pre/post-export quality gates. 把学术论文的 Markdown 稿件导出为符合期刊或学位论文规范的 Word：摘要、公式编号、三线表、题注、交叉引用、目录域、参考文献。Use when the user wants a submission-ready .docx — 论文转 Word、学位论文排版、期刊投稿排版、prepare submission docx — or a readable copy of a manuscript. Not for PDF, HTML or LaTeX output, and not for slide decks or grant forms.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-polishing",
+    "directory": "nature-polishing",
+    "description": "Polish, translate, or tighten existing academic prose while preserving facts, terminology, and evidence boundaries. Use for 论文润色、学术翻译、正文精简, or manuscript LaTeX layout fixes. Use nature-writing when the main task is drafting new sections or rebuilding the manuscript argument.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "researchwrite",
+    "directory": "nature-proposal-writer",
+    "description": "Compose, revise, or audit research proposals, opening reports, and research plans from supporting evidence. Use for 研究计划、开题报告、科研项目申请书. Invoked as researchwrite for compatibility; use nature-writing for general manuscript sections.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-reader",
+    "directory": "nature-reader",
+    "description": "Create source-grounded Chinese-English paper readers with aligned text, figures, tables, and equations. Use for 全文翻译、中英文对照、论文精读 or source-linked questions about a paper; respect a requested excerpt or question without generating a full reader.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-ref-verifier",
+    "directory": "nature-ref-verifier",
+    "description": "对学术文献逐条执行多源交叉验证，逐字段对比作者、标题、年份、卷期、页码， 标记卷年/DOI年冲突、作者顺序异常、页码偏差等问题，输出结构化验证报告。 可批量处理整篇论文/开题报告的参考文献列表，也可单条校验，支持与 Zotero 同步修正。",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-response",
+    "directory": "nature-response",
+    "description": "Draft, audit, or revise responses to peer review, revision cover letters, and marked-manuscript or LaTeX revision packages. Use for 审稿意见回复、逐点回复、返修信、 rebuttals and edits to existing response drafts. Initial-submission materials belong to nature-writing; simulated peer review belongs to nature-reviewer.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-reviewer",
+    "directory": "nature-reviewer",
+    "description": "Provide evidence-grounded mock peer review of scientific manuscripts or excerpts, covering significance, validity, and major/minor concerns. Use for 模拟审稿、投稿前自审、审稿人视角评估; not author rebuttal drafting.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-shared",
+    "directory": "nature-shared",
+    "description": "Internal shared-reference support package for installed Nature Skills, including nature-writing, nature-polishing, nature-response, nature-reader, and nature-paper2ppt. Do not invoke it as a standalone user workflow. Load only the specific core or journal-format file requested by another Nature skill.",
+    "invocation": {
+      "modelInvocable": false,
+      "userInvocable": false
+    }
+  },
+  {
+    "name": "nature-social-science",
+    "directory": "nature-social-science",
+    "description": "社会科学及相邻学科学术写作与选题论证工作台，覆盖选题构思、文献梳理、论证组织、学术表达四大要素。Use for 找论文题目/研究问题、把兴趣或宽泛主题变成可讨论的研究方向、文献综述与领域版图、区分\"研究少\"与真正未决的知识问题、设计证据路线与主张边界、新颖性审计与\"审稿人2\"式攻击、博士/论文可行性评估、导师沟通话术、或检查论文中的过度断言与概念混用。也适用于开题报告、研究计划书、学位论文的选题阶段与论证自检。",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-statistics",
+    "directory": "nature-statistics",
+    "description": "Audit or improve manuscript statistical reporting, including experimental units, replication, uncertainty, tests, and figure statistics. Use for 统计审查、统计方法小节、图注统计 and reviewer concerns; compute new analyses only when requested with data.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  },
+  {
+    "name": "nature-writing",
+    "directory": "nature-writing",
+    "description": "Draft or restructure scientific manuscript arguments, sections, and initial-submission materials from author-provided evidence. Use for 论文写作、章节起草、论证重构、正文压缩、首次投稿材料. Use nature-polishing for language-only edits to existing prose and nature-response for post-decision correspondence.",
+    "invocation": {
+      "modelInvocable": true,
+      "userInvocable": true
+    }
+  }
+]
